@@ -1,0 +1,95 @@
+body {
+    font-family: cursive;
+    background-image: url(imges/Dark\ Blue\ Modern\ Night\ Sky\ Scenery\ Desktop\ Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 355px;
+
+}
+
+* {
+    font-family: cursive;
+}
+
+.dir2 {
+    padding-top: 20px;
+}
+
+.dir1 {
+    margin-top: 110px;
+    background-color: #ffe0db7c;
+    width: 330px;
+    height: 230px;
+    border-radius: 10px;
+    overflow-y: auto;
+    box-shadow: 0px 0px 20px rgb(253, 157, 173);
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 111, 135);
+}
+
+.head1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px rgb(253, 157, 173);
+
+}
+
+#todoList {
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 50px;
+    /* margin-top: 20px; */
+    /* margin-right: 10px; */
+    /* background-color: aqua; */
+    width: 245px;
+
+}
+
+#todoInput {
+    background: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+#todoList li {
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+button {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    height: 25px;
+    width: 55px;
+    background-color: rgb(253, 157, 173);
+
+}
+
+button:hover {
+    box-shadow: 0px 0px 3px black;
+    transform: scale(1.1);
+
+}
